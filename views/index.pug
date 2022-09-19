@@ -1,0 +1,38 @@
+
+doctype html
+html
+  style
+    include ../static/style.css
+  body
+    
+    section#upper
+        | Welcome to Dance Academy
+        div#divsmall
+           |  #[a(href="/") Now]
+    section#midle
+        h1 Our mission
+        div.div1 
+           h3 #[a(href="/") Hip Hop]
+           img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI6C3n7r-HtxG5SyCR2KkEJsHPg7vBL0wK6w&usqp=CAU")
+        div.div1 
+           h3 #[a(href="/") Indian Dance]
+           img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0q8_oqrSjF9DalFiu9swrSwOdeTnIdR3oTw&usqp=CAU")
+        div.div1 
+           h3 #[a(href="/") break Dance]
+           img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdGXHZPbFE7uLojbfHRmze0MPWP6h_gw5Pzw&usqp=CAU")
+    section#lower
+        h1 Our Sponsors 
+        div#sponsor
+            a(href='/') 
+            img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXvNJngZS3RqwdhqArrF0lnkZ5SQj0arcWEA&usqp=CAU" alt="spon-img" class="a")
+            a(href='/') 
+            img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgYwFURD9Pg5dhm-0V3IGhHz09A1nLIQAF4Q&usqp=CAU" alt="spon-img" class="a")
+            a(href='/') 
+            img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtBlnOjLFI_0CAJgWJsbanlSH9VOPk-t6bxQ&usqp=CAU" alt="spon-img" class="a")
+            img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3fkGPgkQNH89fgofxRka_3xuuqHaQKChU_Q&usqp=CAU" alt="spon-img" class="a")
+
+    footer#footer
+        | copyRight@2022NDA.com | All right Reserve
+
+    script 
+        include ../static/index.js

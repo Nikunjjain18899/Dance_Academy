@@ -1,0 +1,58 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+
+block content
+    //- nav#navbar.top
+    //-    ul 
+    //-       div#log 
+    //-         img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5ZvIbt7aWBeEeKt7X3lquxSf4b0pJWBJuEA&usqp=CAU")
+    //-         | NDM
+    //-       li #[a(href="/") Home]
+    //-       li #[a(href="/") About]
+    //-       li #[a(href="/") Service]
+    //-       li #[a(href="/") Work]
+    section#upper
+        | Welcome to Dance Academy
+        div#divsmall
+           |  #[a(href="apply") Now]
+    section#midle
+        h1 Our mission
+        div.div1 
+           h3 #[a(href="https://en.wikipedia.org/wiki/Hip_hop_dance") Hip Hop]
+           img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI6C3n7r-HtxG5SyCR2KkEJsHPg7vBL0wK6w&usqp=CAU")
+        div.div1 
+           h3 #[a(href="https://en.wikipedia.org/wiki/Dance_in_India") Indian Dance]
+           img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyfQmcvNFj0hVKQrkGb6ABvDH6Me8Hvz4lRg&usqp=CAU")
+        div.div1 
+           h3 #[a(href="https://en.wikipedia.org/wiki/Breakdancing") break Dance]
+           img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdGXHZPbFE7uLojbfHRmze0MPWP6h_gw5Pzw&usqp=CAU")
+    section#midle
+        h1 Our mission
+        div.div1 
+           h3 #[a(href="https://en.wikipedia.org/wiki/Belly_dance") Belly Dance]
+           img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrZWm4ZcAbVrkYrf-xR3d4lyzJ1TGoEld0Tg&usqp=CAU")
+        div.div1 
+           h3 #[a(href="https://en.wikipedia.org/wiki/Werstan_dance") Western Dance]
+           img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUDbmtyD8D8Zo3u2o4Kf9ssyAKxOvfRq6AZA&usqp=CAU")
+        div.div1 
+           h3 #[a(href="https://en.wikipedia.org/wiki/Southafaricn%20Dance") Southafaricn Dance]
+           img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoRumzGHiZBInmHco5eqfdZQqBPX3gKLcwrUCVyGkoeFmwJH4eUAztSrAKDlJL0yUTcyI&usqp=CAU")
+    section#lower
+        h1 Our Sponsors 
+        div#sponsor
+           
+            
+            a(href="/")
+            img(src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXvNJngZS3RqwdhqArrF0lnkZ5SQj0arcWEA&usqp=CAU' alt="spon-img" class="a")
+            a(href="/")
+            img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgYwFURD9Pg5dhm-0V3IGhHz09A1nLIQAF4Q&usqp=CAU" alt="spon-img" class="a")
+            a(href="/")
+            img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtBlnOjLFI_0CAJgWJsbanlSH9VOPk-t6bxQ&usqp=CAU" alt="spon-img" class="a")
+            a(href="#")
+            img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3fkGPgkQNH89fgofxRka_3xuuqHaQKChU_Q&usqp=CAU" alt="spon-img" class="a")

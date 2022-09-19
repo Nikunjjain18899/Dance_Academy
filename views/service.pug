@@ -1,0 +1,23 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+      include ../static/styleservice.css
+
+block content
+    div#container
+       h1.h Service
+    div.first
+      h1.h1 #[a(href="#") Beginner course]
+       
+      p The 3-month course at Buskers dance classes is the most basic course for beginners. The dance classes are held at all our branches with different timings for varying ages- from kids to adults.
+    div.second
+      h1.h1 #[a(href="#") Intermediate Course] 
+      p Buskers has proven to be one of the best dance academies in Jaipur to develop dance skills and techniques. The 1 year long intermediate course is designed for the same. It does not require any special training in dance.
+    div.third
+      h1.h3 #[a(href="#") BADC Course]
+      p Buskers Advanced Dance Course brings forth the most advanced course designed for committed and talented dance students who are considering a professional dance career. 

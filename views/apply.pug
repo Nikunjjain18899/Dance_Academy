@@ -1,0 +1,22 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+      include ../static/styleapply.css
+
+block content
+    div#container
+        h1.h Registration
+            form(action="/apply", method="Post", class="myForm")
+                input(type="text" name="name" placeholder="Enter Name" require)
+                input(type="email" name="email" placeholder="Enter Email" require)
+                input(type="number" name="number" placeholder="Enter Number" require)
+                input(type="number" name="age" placeholder="Enter Age" require)
+                input(type="text" name="gender" placeholder="Enter Gender" require)
+                textarea(name="msg", cols="30", rows="10" placeholder="Tell me about your dance! ") 
+                Button(class="btn")
+                    | Submit

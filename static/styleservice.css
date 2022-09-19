@@ -1,0 +1,49 @@
+.first{
+    border: 2px solid red;
+    width: 99%;
+    height: 120px;
+    margin: 38px 0px;
+   
+    padding: 5px;
+    background-color: beige;
+    
+
+}
+.second{
+    border: 2px solid red;
+    width: 99%;
+    height: 120px;
+    margin: 38px 0px;
+    padding: 5px;
+    background-color: beige;
+
+}
+.third{
+    border: 2px solid red;
+    width: 99%;
+    height: 120px;
+    margin: 38px 0px;
+    padding: 5px;
+    background-color: beige;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+#conainer{
+    width: 100vw;
+    height: 100vh;
+}
+.h{
+    margin: 10px 668px;
+}
+.h1{
+    margin: 12px 610px;
+}
+.h3{
+    margin: 12px 643px;
+}
+p{
+    font-size: 1.2rem;
+  
+}

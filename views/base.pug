@@ -1,0 +1,20 @@
+//- layout.pug
+doctype html
+html
+  head
+    title  Dance Class
+    block scripts
+    block style 
+  body
+    nav#navbar.top
+       ul 
+          div#log 
+            img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5ZvIbt7aWBeEeKt7X3lquxSf4b0pJWBJuEA&usqp=CAU")
+            | NDM
+          li #[a(href="/home") Home]
+          li #[a(href="/about") About]
+          li #[a(href="/service") Service]
+          li #[a(href="/contact") Contact]
+    block content
+    foot#footer
+        | copyRight@2022NDA.com | All right Reserve

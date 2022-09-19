@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#log{
+    display: flex;
+    align-items: center;
+    margin: 0 14px;
+    filter: invert(0);
+}
+#log img{
+    width: 42px;
+    height: 42px;
+    filter: invert(0);
+}
+.div1 a{
+    text-decoration: none;
+   
+    
+}
+.div1 a:hover{
+    color: green;
+    cursor: pointer;
+}
+p{
+    text-align: center;
+}
+#navbar{
+    background-color: #d43b3b;
+    padding: 12px 8px;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+#navbar ul a:hover{
+    color: green;
+}
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a:hover{
+    color: black;
+    cursor: pointer;
+}
+
+#navbar li a{
+   
+    padding: 60px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+
+}
+#upper{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'ZCOOL QingKe HuangYou';
+    font-size: 65px;
+    align-items: center;
+    background: center/cover no-repeat url("https://media.istockphoto.com/photos/happy-couples-taking-dancing-lessons-in-a-studio-picture-id1348130126?b=1&k=20&m=1348130126&s=170667a&w=0&h=c-UelskptqEZr0Bm9VaBzKY0VrBg5sqOZ9kXu_jLvSs=") ;
+    height: 425px;
+    background-color: red;
+}
+#upper #divsmall a{
+    text-decoration: none;
+    
+}
+#upper #divsmall a:hover{
+    color: red;
+}
+#midle{
+    background-color: white;
+    height: 300px;
+}
+.div1{
+    border: 2px solid black;
+    margin: auto;
+    display: flex;
+    width: 30%;
+    display: inline-block;
+    height: 209px;
+    margin: 23px 22px;
+    border-radius: 10px;    
+   
+}
+#sponsor{
+    margin: 20px 5px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 21px;
+    max-width: 3000px;
+    height: 171px;
+}
+.div1 h3{
+    text-align: center;
+    margin: 12px;
+}
+#midle h1{
+   text-align: center;
+}
+#lower h1{
+    text-align: center;
+}
+#div1 h3{
+    text-align: center;
+}
+.div1 img{
+    width: 146px;
+    margin: auto;
+    justify-content: center;
+    justify-items: center;
+    display: block;
+    padding: 5px;
+}
+
+
+.div1 h3 a{
+    color: black;
+}
+#lower{
+    height: 300px;
+    
+}
+#footer{
+    background-color: black;
+    height: 30px;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 5px;
+}
